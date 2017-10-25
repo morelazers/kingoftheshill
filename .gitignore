@@ -1,0 +1,4 @@
+node_modules/*
+fun/*
+bundle.js
+package-lock.json
