@@ -1,0 +1,523 @@
+@-webkit-keyframes wave {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  75% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@keyframes wave {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  75% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@-webkit-keyframes scroll {
+  0% {
+    text-indent: 500px;
+  }
+  100% {
+    text-indent: -20em;
+  }
+}
+@keyframes scroll {
+  0% {
+    text-indent: 500px;
+  }
+  100% {
+    text-indent: -20em;
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    top: -1.5em;
+  }
+  10%,
+  90% {
+    top: 0;
+  }
+  100% {
+    top: 1.5em;
+  }
+}
+@keyframes slide {
+  0% {
+    top: -1.5em;
+  }
+  10%,
+  90% {
+    top: 0;
+  }
+  100% {
+    top: 1.5em;
+  }
+}
+@-webkit-keyframes flash1 {
+  0% {
+    color: #FF0000;
+  }
+  50% {
+    color: #ff0;
+  }
+}
+@keyframes flash1 {
+  0% {
+    color: #FF0000;
+  }
+  50% {
+    color: #ff0;
+  }
+}
+@-webkit-keyframes flash2 {
+  0% {
+    color: #0000FF;
+  }
+  50% {
+    color: #00FFFF;
+  }
+}
+@keyframes flash2 {
+  0% {
+    color: #0000FF;
+  }
+  50% {
+    color: #00FFFF;
+  }
+}
+@-webkit-keyframes flash3 {
+  0% {
+    color: #00B000;
+  }
+  50% {
+    color: #80FF80;
+  }
+}
+@keyframes flash3 {
+  0% {
+    color: #00B000;
+  }
+  50% {
+    color: #80FF80;
+  }
+}
+@-webkit-keyframes glow1 {
+  0% {
+    color: #FF0000;
+  }
+  33% {
+    color: #00B000;
+  }
+  66% {
+    color: #0000FF;
+  }
+  100% {
+    color: #FF0000;
+  }
+}
+@keyframes glow1 {
+  0% {
+    color: #FF0000;
+  }
+  33% {
+    color: #00B000;
+  }
+  66% {
+    color: #0000FF;
+  }
+  100% {
+    color: #FF0000;
+  }
+}
+@-webkit-keyframes glow2 {
+  0% {
+    color: #FF0000;
+  }
+  33% {
+    color: #800080;
+  }
+  66% {
+    color: #0000FF;
+  }
+  100% {
+    color: #FF0000;
+  }
+}
+@keyframes glow2 {
+  0% {
+    color: #FF0000;
+  }
+  33% {
+    color: #800080;
+  }
+  66% {
+    color: #0000FF;
+  }
+  100% {
+    color: #FF0000;
+  }
+}
+@-webkit-keyframes glow3 {
+  0% {
+    color: #FFFFFF;
+  }
+  25% {
+    color: #00B000;
+  }
+  50% {
+    color: #FFFFFF;
+  }
+  67.5% {
+    color: #00FFFF;
+  }
+  75% {
+    color: #0000FF;
+  }
+  100% {
+    color: #FFFFFF;
+  }
+}
+@keyframes glow3 {
+  0% {
+    color: #FFFFFF;
+  }
+  25% {
+    color: #00B000;
+  }
+  50% {
+    color: #FFFFFF;
+  }
+  67.5% {
+    color: #00FFFF;
+  }
+  75% {
+    color: #0000FF;
+  }
+  100% {
+    color: #FFFFFF;
+  }
+}
+
+.wave .char1 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -50ms;
+          animation: wave 0.66s linear infinite -50ms;
+}
+.wave .char2 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -100ms;
+          animation: wave 0.66s linear infinite -100ms;
+}
+.wave .char3 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -150ms;
+          animation: wave 0.66s linear infinite -150ms;
+}
+.wave .char4 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -200ms;
+          animation: wave 0.66s linear infinite -200ms;
+}
+.wave .char5 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -250ms;
+          animation: wave 0.66s linear infinite -250ms;
+}
+.wave .char6 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -300ms;
+          animation: wave 0.66s linear infinite -300ms;
+}
+.wave .char7 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -350ms;
+          animation: wave 0.66s linear infinite -350ms;
+}
+.wave .char8 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -400ms;
+          animation: wave 0.66s linear infinite -400ms;
+}
+.wave .char9 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -450ms;
+          animation: wave 0.66s linear infinite -450ms;
+}
+.wave .char10 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -500ms;
+          animation: wave 0.66s linear infinite -500ms;
+}
+.wave .char11 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -550ms;
+          animation: wave 0.66s linear infinite -550ms;
+}
+.wave .char12 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -600ms;
+          animation: wave 0.66s linear infinite -600ms;
+}
+.wave .char13 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -650ms;
+          animation: wave 0.66s linear infinite -650ms;
+}
+.wave .char14 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -700ms;
+          animation: wave 0.66s linear infinite -700ms;
+}
+.wave .char15 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -750ms;
+          animation: wave 0.66s linear infinite -750ms;
+}
+.wave .char16 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -800ms;
+          animation: wave 0.66s linear infinite -800ms;
+}
+.wave .char17 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -850ms;
+          animation: wave 0.66s linear infinite -850ms;
+}
+.wave .char18 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -900ms;
+          animation: wave 0.66s linear infinite -900ms;
+}
+.wave .char19 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -950ms;
+          animation: wave 0.66s linear infinite -950ms;
+}
+.wave .char20 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1000ms;
+          animation: wave 0.66s linear infinite -1000ms;
+}
+.wave .char21 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1050ms;
+          animation: wave 0.66s linear infinite -1050ms;
+}
+.wave .char22 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1100ms;
+          animation: wave 0.66s linear infinite -1100ms;
+}
+.wave .char23 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1150ms;
+          animation: wave 0.66s linear infinite -1150ms;
+}
+.wave .char24 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1200ms;
+          animation: wave 0.66s linear infinite -1200ms;
+}
+.wave .char25 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1250ms;
+          animation: wave 0.66s linear infinite -1250ms;
+}
+.wave .char26 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1300ms;
+          animation: wave 0.66s linear infinite -1300ms;
+}
+.wave .char27 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1350ms;
+          animation: wave 0.66s linear infinite -1350ms;
+}
+.wave .char28 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1400ms;
+          animation: wave 0.66s linear infinite -1400ms;
+}
+.wave .char29 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1450ms;
+          animation: wave 0.66s linear infinite -1450ms;
+}
+.wave .char30 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1500ms;
+          animation: wave 0.66s linear infinite -1500ms;
+}
+.wave .char31 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1550ms;
+          animation: wave 0.66s linear infinite -1550ms;
+}
+.wave .char32 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1600ms;
+          animation: wave 0.66s linear infinite -1600ms;
+}
+.wave .char33 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1650ms;
+          animation: wave 0.66s linear infinite -1650ms;
+}
+.wave .char34 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1700ms;
+          animation: wave 0.66s linear infinite -1700ms;
+}
+.wave .char35 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1750ms;
+          animation: wave 0.66s linear infinite -1750ms;
+}
+.wave .char36 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1800ms;
+          animation: wave 0.66s linear infinite -1800ms;
+}
+.wave .char37 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1850ms;
+          animation: wave 0.66s linear infinite -1850ms;
+}
+.wave .char38 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1900ms;
+          animation: wave 0.66s linear infinite -1900ms;
+}
+.wave .char39 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -1950ms;
+          animation: wave 0.66s linear infinite -1950ms;
+}
+.wave .char40 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2000ms;
+          animation: wave 0.66s linear infinite -2000ms;
+}
+.wave .char41 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2050ms;
+          animation: wave 0.66s linear infinite -2050ms;
+}
+.wave .char42 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2100ms;
+          animation: wave 0.66s linear infinite -2100ms;
+}
+.wave .char43 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2150ms;
+          animation: wave 0.66s linear infinite -2150ms;
+}
+.wave .char44 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2200ms;
+          animation: wave 0.66s linear infinite -2200ms;
+}
+.wave .char45 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2250ms;
+          animation: wave 0.66s linear infinite -2250ms;
+}
+.wave .char46 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2300ms;
+          animation: wave 0.66s linear infinite -2300ms;
+}
+.wave .char47 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2350ms;
+          animation: wave 0.66s linear infinite -2350ms;
+}
+.wave .char48 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2400ms;
+          animation: wave 0.66s linear infinite -2400ms;
+}
+.wave .char49 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2450ms;
+          animation: wave 0.66s linear infinite -2450ms;
+}
+.wave .char50 {
+  display: inline-block;
+  -webkit-animation: wave 0.66s linear infinite -2500ms;
+          animation: wave 0.66s linear infinite -2500ms;
+}
+
+.scroll {
+  display: inline-block;
+  white-space: nowrap;
+  -webkit-animation: scroll 8s infinite linear;
+          animation: scroll 8s infinite linear;
+}
+
+.slide {
+  -webkit-animation: slide 3s linear;
+          animation: slide 3s linear;
+  position: relative;
+  top: -2em;
+}
+
+.flash1 {
+  -webkit-animation: flash1 0.45s steps(1, end) infinite;
+          animation: flash1 0.45s steps(1, end) infinite;
+}
+
+.flash2 {
+  -webkit-animation: flash2 0.45s steps(1, end) infinite;
+          animation: flash2 0.45s steps(1, end) infinite;
+}
+
+.flash3 {
+  -webkit-animation: flash3 0.45s steps(1, end) infinite;
+          animation: flash3 0.45s steps(1, end) infinite;
+}
+
+.glow1 {
+  -webkit-animation: glow1 3s linear infinite;
+          animation: glow1 3s linear infinite;
+}
+
+.glow2 {
+  -webkit-animation: glow2 3s linear infinite;
+          animation: glow2 3s linear infinite;
+}
+
+.glow3 {
+  -webkit-animation: glow3 3s linear infinite;
+          animation: glow3 3s linear infinite;
+}

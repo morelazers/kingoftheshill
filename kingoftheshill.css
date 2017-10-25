@@ -1,0 +1,363 @@
+@media (max-width: 768px) {
+  .blocker {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffcc33;
+    align-content: center;
+  }
+  .KOHcontainer {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .blocker {
+    display: none;
+  }
+}
+
+.blocker.metamask {
+  display: none;
+}
+
+.metamaskimage {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Schaeffer";
+  src: url("./Schaeffer.ttf") format("truetype");
+}
+@font-face {
+  font-family: "acmeme";
+  src: url("./acmeme.woff") format("woff");
+}
+
+html {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  box-sizing: borderbox;
+  background-color: #ffcc33;
+  color: black;
+
+}
+
+p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: black;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 6em;
+  line-height: 1em;
+  margin: 0px;
+  padding: 5px;
+}
+
+h2 {
+  font-weight: 900;
+  margin: 10px;
+}
+
+h3 {
+  font-weight: 600;
+  margin: 10px;
+}
+
+/*Main Page*/
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffcc33;
+  overflow-x: hidden;
+}
+
+.KOHcontainer {
+  display: flex;
+  flex-direction: row;
+  max-height: 90vh;
+  max-width: 1280px;
+  /*  justify-content: space-around;*/
+}
+
+/*Right Panel*/
+
+/*
+.barscontainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.bars {
+  position: absolute;
+  bottom: 150px;
+    opacity: .7;
+}
+*/
+
+.instructions {
+  /*  min-width: 40%;*/
+  /*  max-width: 500px;*/
+}
+
+.panel {
+  background-color: white;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 90%;
+}
+
+.panel p {
+  margin: 10px;
+}
+
+.panel h1 {
+  color: #003366;
+}
+
+.panel h2 {
+  color: #ffcc33;
+  font-size: 1em;
+}
+
+.panel h3 {
+  color: red;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.codesnip {
+  font-family: monospace;
+  color: mediumvioletred;
+  background-color: lightyellow;
+  padding: 10px;
+  border: solid 1px grey;
+  text-align: center;
+  font-size: 1em;
+}
+
+.participate {
+  margin: 15px auto;
+  border: none;
+  display: flex;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 75px;
+  background: #ff0066;
+  color: white;
+  font-family: 'Montserrat Alternates', 'sans-serif';
+  font-size: 1.5em;
+  font-weight: 600;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+}
+
+.participate:active {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.crown{
+  font-size: 2em;
+  padding-right: 5px;
+}
+
+.participate .buttontext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    padding-left: 5px;
+  font-size: .8em;
+}
+
+/*Left Panel*/
+
+.main {
+  background-color: #ffcc33;
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+  max-width: 800px;
+  max-height: 80%;
+}
+
+.top {
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.top h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.counter {
+  display: block;
+  min-width: 40%;
+  margin: 15px;
+}
+
+.jackpot {
+  display: block;
+  min-width: 40%;
+  margin: 15px;
+}
+
+.amount {
+  display: flex;
+}
+
+.ethereum-logo {
+  position: absolute;
+  min-height: 80px;
+  min-width: 30px;
+  top: 30px;
+  background-color: white;
+  -webkit-mask-image: url("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg");
+  mask-image: url("https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg");
+  -webkit-mask-size: 2vw;
+  mask-size: 2vw;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  /*  -webkit-mask-position: 10px;*/
+  /*  mask-position: 10px;*/
+}
+
+/*Leaderboard*/
+
+.currentwinner {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  white-space:nowrap;
+  font-size: 1.4em;
+  padding-top: 4%;
+}
+.currentwinnercontainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currentwinner h2 {
+  margin: 0px .5em;
+  line-height: 1.5em;
+  text-transform: capitalize;
+}
+
+.currentkingdata {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.currentkingaddress {
+  font-family: monospace;
+  font-size: 1em;
+  fle
+}
+
+.history {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  line-height: 2em;
+  padding-top: 4%;
+  overflow: hidden;
+}
+
+.history .entrydata {
+  margin: 20px 0 30px 0;
+}
+
+.history h4 {
+  line-height: 0.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.entrydata div {
+  font-size: 0.6em;
+  font-weight: 300;
+  font-family: monospace;
+}
+
+.history .entrydata:nth-child(1) {
+  opacity: 1;
+}
+
+.history .entrydata:nth-child(2) {
+  opacity: .8;
+}
+
+.history .entrydata:nth-child(3) {
+  opacity: .6;
+}
+
+.history .entrydata:nth-child(4) {
+  opacity: .4;
+}
+
+.history .entrydata:nth-child(5) {
+  opacity: .2;
+}
+
+.history .entrydata:nth-child(6) {
+  opacity: .1;
+}
+
+/*Footer*/
+
+.footer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 110%;
+  height: 8vh;
+  background-color: white;
+  bottom: 0;
+
+}
+
+.footer p {
+  font-weight: 300;
+  font-style: italic;
+  font-size: .7em;
+
+}
+
+.footercontainer{
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  margin: auto;
+}
+.acmeme {
+  font-family: "Schaeffer";
+  letter-spacing: .5em;
+  font-size: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px 5px;
+}
